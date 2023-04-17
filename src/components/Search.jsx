@@ -91,7 +91,7 @@ function Search() {
           <input
             type="text"
             placeholder="Enter the keyword or URL"
-            className="flex-[19] outline-none bg-[#020917] rounded-xl p-3 h-[3rem]"
+            className="flex-[19] outline-none bg-[#020917] rounded-xl p-3 h-[3rem] z-[99]"
           />
           {/* SearchIcon */}
           <div className="searchIcon flex flex-1 items-center rounded-xl ml-4 bg-gradient-to-bl from-[#F3071D] to-[#E600FF] p-4 h-[3rem]">
@@ -104,7 +104,7 @@ function Search() {
         </div>
 
         {/* paragraph */}
-        <div className="detail flex flex-col mt-5 text-4xl">
+        <div className="detail flex flex-col mt-5 text-4xl z-[99]">
           <span>Search Music by</span>
           <span>
             <b>Name or Direct URL</b>

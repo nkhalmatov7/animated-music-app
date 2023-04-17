@@ -5,7 +5,7 @@ import Group9 from '../assets/Group 9.png'
 
 function MusicPlayer() {
   return (
-    <div className="musicPlayer flex flex-col px-5 w-[100%] border-2 border-black py-3 bg-[#232A4E] rounded-xl mt-5">
+    <div className="musicPlayer flex flex-col px-5 w-[100%] border-2 border-black py-3 bg-[#232A4E] rounded-xl mt-5 z-[99]">
       {/* Upper Part */}
       <div className="upperPart flex items-center justify-between">
         {/* profile */}
